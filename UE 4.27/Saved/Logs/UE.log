@@ -2108,3 +2108,730 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.02.02-10.54.30:266][572]LogFileHelpers: Saving map 'AT_Fields' took 0.069
 [2022.02.02-10.54.30:279][572]AssetCheck: New page: Asset Save: AT_Fields
 [2022.02.02-10.54.30:279][572]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/AT_Fields.AT_Fields
+[2022.02.02-10.55.02:693][103]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.02-10.55.02:707][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.02-10.55.02:707][103]PIE: New page: PIE session: TopDownExampleMap (2 févr. 2022 à 12:55:02)
+[2022.02.02-10.55.02:707][103]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.02.02-10.55.02:716][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008920s)
+[2022.02.02-10.55.02:717][103]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-10.55.02:744][103]LogPlayLevel: PIE: World Init took: (0.028053s)
+[2022.02.02-10.55.02:744][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.037133s)
+[2022.02.02-10.55.02:762][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.02.02-10.55.02:764][103]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.02.02-10.55.02:764][103]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.02-10.55.02:764][103]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.02-10.55.02:764][103]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.02-10.55.02:764][103]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.02-10.55.02:764][103]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.02-10.55.02:764][103]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.02-10.55.02:764][103]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.02-10.55.02:764][103]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.02-10.55.02:764][103]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.02-10.55.02:764][103]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.02-10.55.02:765][103]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.02-10.55.02:765][103]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.02-10.55.02:768][103]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.02-10.55.02:768][103]LogAudioMixer: Display: 1: FrontRight
+[2022.02.02-10.55.02:780][103]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.02.02-10.55.02:781][103]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.02-10.55.02:781][103]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.02-10.55.02:781][103]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.02-10.55.02:781][103]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.02-10.55.02:781][103]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.02-10.55.02:781][103]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.02-10.55.02:782][103]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.02-10.55.02:782][103]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.02-10.55.02:782][103]LogInit: FAudioDevice initialized.
+[2022.02.02-10.55.02:782][103]LogAudio: Display: Audio Device (ID: 17) registered with world 'TopDownExampleMap'.
+[2022.02.02-10.55.02:792][103]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.02.02-10.55.02:795][103]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.02.02-11.55.02
+[2022.02.02-10.55.02:795][103]LogWorld: Bringing up level for play took: 0.001240
+[2022.02.02-10.55.02:796][103]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2022.02.02-10.55.02:798][103]PIE: Server logged in
+[2022.02.02-10.55.02:799][103]PIE: Play in editor total start time 0,094 seconds.
+[2022.02.02-10.55.39:073][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-10.55.39:073][361]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.02.02-10.55.39:073][361]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.55.39:073][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.55.39:084][361]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.02-10.55.39:090][361]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.55.39:117][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-10.55.39:118][361]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-10.55.39:119][361]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-10.55.39:127][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.02.02-10.55.39:172][362]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.02.02-10.55.39:195][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2022.02.02-10.56.05:608][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.02.02-10.56.05:628][ 16]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-10.56.05:628][ 16]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-10.56.05:628][ 16]LightingResults: New page: Lighting Build
+[2022.02.02-10.56.05:628][ 16]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-10.56.05:666][ 16]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.56.05:666][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.56.05:666][ 16]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.56.05:666][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.56.05:667][ 16]MapCheck: New page: Map Check
+[2022.02.02-10.56.05:667][ 16]LightingResults: New page: Lighting Build
+[2022.02.02-10.56.05:692][ 16]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-10.56.05:695][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.02.02-10.56.05:705][ 16]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-10.56.05:706][ 16]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-10.56.05:729][ 16]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-10.56.05:729][ 16]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-10.56.05:752][ 16]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-10.56.05:775][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.02.02-10.56.05:799][ 16]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-10.56.05:799][ 16]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,153ms to complete.
+[2022.02.02-10.56.05:800][ 16]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.172
+[2022.02.02-10.56.05:844][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.02.02-10.56.18:705][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (100*100)
+[2022.02.02-10.56.31:302][725]Cmd: DELETE
+[2022.02.02-10.56.31:302][725]Cmd: ACTOR DELETE
+[2022.02.02-10.56.31:303][725]LogEditorActor: Deleted Actor: PostProcessVolume
+[2022.02.02-10.56.31:324][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.02.02-10.56.31:330][725]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2022.02.02-10.57.48:541][302]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.02.02-10.57.48:554][302]LogContentBrowser: Creating deferred item: NewWorld
+[2022.02.02-10.57.55:900][168]LogContentBrowser: Attempting asset rename: NewWorld -> MH_Factory
+[2022.02.02-10.57.55:988][168]LogContentBrowser: End creating deferred item NewWorld
+[2022.02.02-10.58.11:610][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.02.02-10.58.12:582][732]LogSlate: Window 'Save Content' being destroyed
+[2022.02.02-10.58.12:817][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/MH_Factory" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-10.58.12:842][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-10.58.12:853][732]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/MH_Factory83874BAB4216B3A5188B7090C0256945.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap'
+[2022.02.02-10.58.13:145][732]LogFileHelpers: No new changes to save!
+[2022.02.02-10.58.13:149][732]LogFileHelpers: Saving map 'MH_Factory' took 0.332
+[2022.02.02-10.58.13:149][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-10.58.13:169][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-10.58.13:576][732]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/TopDownExampleMapADBF41BC4DB6E439A3FBB6A9B7F6A182.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.02.02-10.58.13:624][732]LogFileHelpers: No new changes to save!
+[2022.02.02-10.58.13:635][732]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.486
+[2022.02.02-10.58.13:667][732]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-10.58.13:667][732]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-10.58.13:667][732]LightingResults: New page: Lighting Build
+[2022.02.02-10.58.13:667][732]LoadErrors: New page: Loading map: MH_Factory.umap
+[2022.02.02-10.58.13:709][732]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.58.13:709][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.58.13:709][732]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.58.13:709][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.58.13:711][732]MapCheck: New page: Map Check
+[2022.02.02-10.58.13:711][732]LightingResults: New page: Lighting Build
+[2022.02.02-10.58.13:746][732]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-10.58.13:750][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2022.02.02-10.58.13:750][732]LogAudio: Display: Audio Device (ID: 1) registered with world 'MH_Factory'.
+[2022.02.02-10.58.13:772][732]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-10.58.13:772][732]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-10.58.13:806][732]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2022.02.02-10.58.13:833][732]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-10.58.13:833][732]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,107ms to complete.
+[2022.02.02-10.58.13:833][732]LogFileHelpers: Loading map 'MH_Factory' took 0.167
+[2022.02.02-10.58.13:864][732]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.02-10.58.13:864][732]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-10.58.13:865][732]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-10.58.13:913][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.02.02-10.58.35:386][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.02.02-10.58.35:413][ 95]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-10.58.35:413][ 95]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-10.58.35:413][ 95]LightingResults: New page: Lighting Build
+[2022.02.02-10.58.35:413][ 95]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-10.58.35:444][ 95]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.58.35:444][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.58.35:445][ 95]MapCheck: New page: Map Check
+[2022.02.02-10.58.35:445][ 95]LightingResults: New page: Lighting Build
+[2022.02.02-10.58.35:468][ 95]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-10.58.35:470][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.02.02-10.58.35:471][ 95]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-10.58.35:474][ 95]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-10.58.35:474][ 95]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-10.58.35:496][ 95]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-10.58.35:496][ 95]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-10.58.35:515][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.02.02-10.58.35:546][ 95]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-10.58.35:546][ 95]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,148ms to complete.
+[2022.02.02-10.58.35:546][ 95]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.132
+[2022.02.02-10.58.42:476][855]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.02.02-10.58.42:530][855]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-10.58.42:530][855]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-10.58.42:530][855]LightingResults: New page: Lighting Build
+[2022.02.02-10.58.42:530][855]LoadErrors: New page: Loading map: MH_Factory.umap
+[2022.02.02-10.58.42:533][855]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.58.42:533][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.58.42:533][855]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.58.42:533][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.58.42:533][855]MapCheck: New page: Map Check
+[2022.02.02-10.58.42:533][855]LightingResults: New page: Lighting Build
+[2022.02.02-10.58.42:553][855]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-10.58.42:555][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.02.02-10.58.42:556][855]LogAudio: Display: Audio Device (ID: 1) registered with world 'MH_Factory'.
+[2022.02.02-10.58.42:576][855]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-10.58.42:576][855]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-10.58.42:594][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.02.02-10.58.42:620][855]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-10.58.42:620][855]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,234ms to complete.
+[2022.02.02-10.58.42:620][855]LogFileHelpers: Loading map 'MH_Factory' took 0.090
+[2022.02.02-10.58.42:683][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.02.02-10.59.54:078][800]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.02-10.59.54:094][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.02-10.59.54:094][800]PIE: New page: PIE session: MH_Factory (2 févr. 2022 à 12:59:54)
+[2022.02.02-10.59.54:094][800]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory
+[2022.02.02-10.59.54:095][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000788s)
+[2022.02.02-10.59.54:096][800]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-10.59.54:096][800]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2022.02.02-10.59.54:096][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/MH_Factory.MH_Factory to /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory.MH_Factory (0.001974s)
+[2022.02.02-10.59.54:113][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2022.02.02-10.59.54:119][800]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.02.02-10.59.54:119][800]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.02-10.59.54:119][800]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.02-10.59.54:120][800]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.02-10.59.54:120][800]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.02-10.59.54:120][800]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.02-10.59.54:120][800]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.02-10.59.54:120][800]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.02-10.59.54:120][800]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.02-10.59.54:120][800]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.02-10.59.54:120][800]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.02-10.59.54:120][800]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.02-10.59.54:120][800]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.02-10.59.54:124][800]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.02-10.59.54:124][800]LogAudioMixer: Display: 1: FrontRight
+[2022.02.02-10.59.54:139][800]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.02.02-10.59.54:139][800]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.02-10.59.54:139][800]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.02-10.59.54:139][800]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.02-10.59.54:139][800]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.02-10.59.54:139][800]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.02-10.59.54:139][800]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.02-10.59.54:141][800]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.02-10.59.54:141][800]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.02-10.59.54:141][800]LogInit: FAudioDevice initialized.
+[2022.02.02-10.59.54:141][800]LogAudio: Display: Audio Device (ID: 18) registered with world 'MH_Factory'.
+[2022.02.02-10.59.54:154][800]LogLoad: Game class is 'GameModeBase'
+[2022.02.02-10.59.54:155][800]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory.MH_Factory up for play (max tick rate 0) at 2022.02.02-11.59.54
+[2022.02.02-10.59.54:155][800]LogWorld: Bringing up level for play took: 0.000405
+[2022.02.02-10.59.54:155][800]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.02.02-10.59.54:157][800]PIE: Server logged in
+[2022.02.02-10.59.54:158][800]PIE: Play in editor total start time 0,065 seconds.
+[2022.02.02-10.59.56:893][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-10.59.56:893][119]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory
+[2022.02.02-10.59.56:893][119]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-10.59.56:893][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.59.56:904][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.02-10.59.56:908][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-10.59.56:928][119]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-10.59.56:928][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-10.59.56:929][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-10.59.56:933][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-10.59.56:935][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.02.02-10.59.56:974][120]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.02.02-11.00.09:096][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.00.09:117][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.02.02-11.00.09:448][310]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/TopDownExampleMapE4B89C67464002C3922D32A220CF5F29.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.02.02-11.00.09:454][310]LogFileHelpers: No new changes to save!
+[2022.02.02-11.00.09:608][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2022.02.02-11.00.09:637][310]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/TopDownExampleMap_BuiltDataE1651928441A1D4A5D8C64B393E38472.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2022.02.02-11.00.09:720][310]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.02-11.00.09:720][310]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.00.09:720][310]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2022.02.02-11.00.19:087][395]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.02-11.00.19:102][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.02-11.00.19:102][395]PIE: New page: PIE session: MH_Factory (2 févr. 2022 à 13:00:19)
+[2022.02.02-11.00.19:102][395]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory
+[2022.02.02-11.00.19:103][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000709s)
+[2022.02.02-11.00.19:104][395]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-11.00.19:104][395]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2022.02.02-11.00.19:104][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/MH_Factory.MH_Factory to /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory.MH_Factory (0.001855s)
+[2022.02.02-11.00.19:120][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.02.02-11.00.19:122][395]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.02.02-11.00.19:122][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.02-11.00.19:123][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.02-11.00.19:123][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.02-11.00.19:123][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.02-11.00.19:123][395]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.02-11.00.19:123][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.02-11.00.19:123][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.02-11.00.19:123][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.02-11.00.19:123][395]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.02-11.00.19:123][395]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.02-11.00.19:123][395]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.02-11.00.19:123][395]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.02-11.00.19:127][395]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.02-11.00.19:127][395]LogAudioMixer: Display: 1: FrontRight
+[2022.02.02-11.00.19:140][395]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.02.02-11.00.19:141][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.02-11.00.19:141][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.02-11.00.19:141][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.02-11.00.19:141][395]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.02-11.00.19:141][395]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.02-11.00.19:141][395]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.02-11.00.19:142][395]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.02-11.00.19:143][395]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.02-11.00.19:143][395]LogInit: FAudioDevice initialized.
+[2022.02.02-11.00.19:143][395]LogAudio: Display: Audio Device (ID: 19) registered with world 'MH_Factory'.
+[2022.02.02-11.00.19:153][395]LogLoad: Game class is 'GameModeBase'
+[2022.02.02-11.00.19:193][395]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory.MH_Factory up for play (max tick rate 0) at 2022.02.02-12.00.19
+[2022.02.02-11.00.19:193][395]LogWorld: Bringing up level for play took: 0.000414
+[2022.02.02-11.00.19:193][395]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.02.02-11.00.19:195][395]PIE: Server logged in
+[2022.02.02-11.00.19:196][395]PIE: Play in editor total start time 0,095 seconds.
+[2022.02.02-11.00.30:432][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-11.00.30:432][718]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory
+[2022.02.02-11.00.30:433][718]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.00.30:433][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.00.30:445][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.02-11.00.30:449][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.00.30:468][718]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.00.30:468][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-11.00.30:470][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-11.00.30:474][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-11.00.30:475][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.02.02-11.00.30:512][719]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.02.02-11.00.30:534][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.02.02-11.02.30:750][270]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (Light Source)
+[2022.02.02-11.02.52:255][728]LogActorFactory: Actor Factory created Cube
+[2022.02.02-11.02.54:273][959]LogActorFactory: Actor Factory created Cube
+[2022.02.02-11.03.13:237][410]LogSlate: Window 'Message' being destroyed
+[2022.02.02-11.03.13:252][410]Message dialog closed, result: Ok, title: Message, text: MakeLevelCurrent: The requested operation could not be completed because the level is locked.
+[2022.02.02-11.03.55:183][329]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.02-11.03.55:198][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.02-11.03.55:198][329]PIE: New page: PIE session: MH_Factory (2 févr. 2022 à 13:03:55)
+[2022.02.02-11.03.55:232][329]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory
+[2022.02.02-11.03.55:234][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001879s)
+[2022.02.02-11.03.55:237][329]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-11.03.55:237][329]LogPlayLevel: PIE: World Init took: (0.002741s)
+[2022.02.02-11.03.55:237][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/MH_Factory.MH_Factory to /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory.MH_Factory (0.004898s)
+[2022.02.02-11.03.55:274][329]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2022.02.02-11.03.55:286][329]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.02.02-11.03.55:286][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.02-11.03.55:286][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.02-11.03.55:286][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.02-11.03.55:286][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.02-11.03.55:286][329]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.02-11.03.55:286][329]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.02-11.03.55:286][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.02-11.03.55:286][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.02-11.03.55:287][329]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.02.02-11.03.55:287][329]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.02.02-11.03.55:287][329]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.02.02-11.03.55:287][329]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.02-11.03.55:291][329]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.02-11.03.55:291][329]LogAudioMixer: Display: 1: FrontRight
+[2022.02.02-11.03.55:305][329]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.02.02-11.03.55:305][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.02-11.03.55:305][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.02-11.03.55:305][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.02-11.03.55:305][329]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.02-11.03.55:305][329]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.02.02-11.03.55:305][329]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.02.02-11.03.55:309][329]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.02.02-11.03.55:309][329]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.02.02-11.03.55:309][329]LogInit: FAudioDevice initialized.
+[2022.02.02-11.03.55:309][329]LogAudio: Display: Audio Device (ID: 20) registered with world 'MH_Factory'.
+[2022.02.02-11.03.55:317][329]LogLoad: Game class is 'GameModeBase'
+[2022.02.02-11.03.55:361][329]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory.MH_Factory up for play (max tick rate 0) at 2022.02.02-12.03.55
+[2022.02.02-11.03.55:361][329]LogWorld: Bringing up level for play took: 0.000563
+[2022.02.02-11.03.55:361][329]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.02.02-11.03.55:363][329]PIE: Server logged in
+[2022.02.02-11.03.55:364][329]PIE: Play in editor total start time 0,167 seconds.
+[2022.02.02-11.04.03:865][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-11.04.03:865][329]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_MH_Factory
+[2022.02.02-11.04.03:865][329]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.04.03:865][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.04.03:875][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.02.02-11.04.03:895][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.04.03:918][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.02-11.04.03:919][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-11.04.03:920][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.02.02-11.04.03:928][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.02.02-11.04.03:977][330]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.02.02-11.04.04:000][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.02.02-11.04.11:944][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/MH_Factory" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.04.11:965][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.02.02-11.04.12:002][220]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/MH_Factory59AF3931405862A71EDFF7BDFBE13E00.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap'
+[2022.02.02-11.04.12:028][220]LogFileHelpers: No new changes to save!
+[2022.02.02-11.04.12:052][220]AssetCheck: New page: Asset Save: MH_Factory
+[2022.02.02-11.04.12:052][220]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-11.04.14:596][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/MH_Factory" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.04.14:619][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.02.02-11.04.14:653][491]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/MH_FactoryBC6744CF4478D4C13EC79C8F888CE364.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap'
+[2022.02.02-11.04.14:676][491]LogFileHelpers: No new changes to save!
+[2022.02.02-11.04.14:694][491]AssetCheck: New page: Asset Save: MH_Factory
+[2022.02.02-11.04.14:694][491]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-11.04.26:241][973]LogSlate: Window 'Message' being destroyed
+[2022.02.02-11.04.26:249][973]Message dialog closed, result: Ok, title: Message, text: Save aborted.  Level must be unlocked before it can be saved.
+[2022.02.02-11.05.34:850][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.02.02-11.05.36:168][997]LogSlate: Window 'Save Content' being destroyed
+[2022.02.02-11.05.36:295][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.05.36:315][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-11.05.36:672][997]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/TopDownExampleMap11BE90C845A328A6DEBAB3AB74814158.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.02.02-11.05.36:678][997]LogFileHelpers: No new changes to save!
+[2022.02.02-11.05.36:684][997]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.389
+[2022.02.02-11.05.36:738][997]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.05.36:738][997]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.05.36:738][997]LightingResults: New page: Lighting Build
+[2022.02.02-11.05.36:739][997]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-11.05.36:787][997]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.05.36:788][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.05.36:788][997]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.05.36:788][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.05.36:789][997]MapCheck: New page: Map Check
+[2022.02.02-11.05.36:789][997]LightingResults: New page: Lighting Build
+[2022.02.02-11.05.36:823][997]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.05.36:826][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2022.02.02-11.05.36:827][997]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-11.05.36:830][997]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-11.05.36:830][997]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-11.05.36:856][997]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.05.36:856][997]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-11.05.36:886][997]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.02.02-11.05.36:920][997]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.05.36:921][997]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,282ms to complete.
+[2022.02.02-11.05.36:921][997]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.184
+[2022.02.02-11.05.36:962][997]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2022.02.02-11.05.36:962][997]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.05.36:996][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2022.02.02-11.06.29:411][674]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2022.02.02-11.06.38:479][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.06.38:501][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.02.02-11.06.38:867][716]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/TopDownExampleMap7A58726E4FFE5F488F345FA00A05F6E3.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.02.02-11.06.39:070][716]LogFileHelpers: No new changes to save!
+[2022.02.02-11.06.39:259][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset" SILENT=true
+[2022.02.02-11.06.39:287][716]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/TopDownExampleMap_BuiltData504AD1F847FBE8BDCA695BA7EE2708F7.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2022.02.02-11.06.39:320][716]AssetCheck: New page: Asset Save: multiple assets
+[2022.02.02-11.06.39:320][716]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.06.39:320][716]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData
+[2022.02.02-11.06.43:977][123]LogSlate: Window 'Message' being destroyed
+[2022.02.02-11.06.43:989][123]Message dialog closed, result: Ok, title: Message, text: MakeLevelCurrent: The requested operation could not be completed because the level is locked.
+[2022.02.02-11.06.48:133][530]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2022.02.02-11.06.48:144][530]LogContentBrowser: Creating deferred item: NewWorld
+[2022.02.02-11.06.54:616][300]LogContentBrowser: Attempting asset rename: NewWorld -> MM_Fun
+[2022.02.02-11.06.54:691][300]LogContentBrowser: End creating deferred item NewWorld
+[2022.02.02-11.06.56:391][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/MM_Fun" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MM_Fun.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.06.56:412][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.02.02-11.06.56:423][475]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/MM_FunDC166CFD4E5F4D1E38B806BFC148180D.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MM_Fun.umap'
+[2022.02.02-11.06.56:658][475]LogFileHelpers: No new changes to save!
+[2022.02.02-11.06.56:658][475]LogFileHelpers: Saving map 'MM_Fun' took 0.267
+[2022.02.02-11.06.56:665][475]AssetCheck: New page: Asset Save: MM_Fun
+[2022.02.02-11.06.56:665][475]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/MM_Fun.MM_Fun
+[2022.02.02-11.07.01:961][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-11.07.03:298][989]LogSlate: Window 'Save Content' being destroyed
+[2022.02.02-11.07.03:454][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.07.03:484][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.02.02-11.07.03:815][989]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/TopDownExampleMapF9D52AA349FF6FB7788F45BBC6051C0A.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2022.02.02-11.07.03:864][989]LogFileHelpers: No new changes to save!
+[2022.02.02-11.07.03:873][989]LogFileHelpers: Saving map 'TopDownExampleMap' took 0.420
+[2022.02.02-11.07.03:917][989]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-11.07.03:917][989]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.07.03:917][989]LightingResults: New page: Lighting Build
+[2022.02.02-11.07.03:917][989]LoadErrors: New page: Loading map: MH_Factory.umap
+[2022.02.02-11.07.03:952][989]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.07.03:953][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.07.03:953][989]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.07.03:953][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.07.03:953][989]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.07.03:953][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.07.03:953][989]LogWorld: UWorld::CleanupWorld for MM_Fun, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.07.03:953][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.07.03:955][989]MapCheck: New page: Map Check
+[2022.02.02-11.07.03:955][989]LightingResults: New page: Lighting Build
+[2022.02.02-11.07.03:989][989]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.07.03:993][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.02.02-11.07.03:994][989]LogAudio: Display: Audio Device (ID: 1) registered with world 'MH_Factory'.
+[2022.02.02-11.07.03:995][989]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/TopDownExampleMap) is flushing async loading
+[2022.02.02-11.07.03:995][989]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-11.07.04:054][989]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.07.04:054][989]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-11.07.04:080][989]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.02.02-11.07.04:099][989]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.07.04:099][989]LogEditorServer: Warning: WorldInfo_0 contains streaming level '/Game/TopDownBP/Maps/AT_Fields' which isn't loaded.
+[2022.02.02-11.07.04:099][989]LogEditorServer: Warning: WorldInfo_0 contains streaming level '/Game/TopDownBP/Maps/MH_Factory' which isn't loaded.
+[2022.02.02-11.07.04:099][989]LogEditorServer: Warning: WorldInfo_0 contains streaming level '/Game/TopDownBP/Maps/MM_Fun' which isn't loaded.
+[2022.02.02-11.07.04:100][989]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,209ms to complete.
+[2022.02.02-11.07.04:100][989]LogFileHelpers: Loading map 'MH_Factory' took 0.183
+[2022.02.02-11.07.04:131][989]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2022.02.02-11.07.04:131][989]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.07.04:159][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2022.02.02-11.07.21:102][243]LogSlate: Window 'Remove Level' being destroyed
+[2022.02.02-11.07.30:507][773]LogSlate: Window 'Message' being destroyed
+[2022.02.02-11.07.30:523][773]Message dialog closed, result: Ok, title: Message, text: MakeLevelCurrent: The requested operation could not be completed because the level is locked.
+[2022.02.02-11.07.40:690][652]LogSlate: Window 'Remove Level' being destroyed
+[2022.02.02-11.07.40:701][652]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.07.40:701][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.07.40:754][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.02.02-11.07.40:791][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2022.02.02-11.07.40:792][652]MapCheck: New page: Map Check
+[2022.02.02-11.07.40:792][652]LightingResults: New page: Lighting Build
+[2022.02.02-11.07.40:809][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-11.07.40:825][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-11.07.42:028][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2022.02.02-11.07.43:336][779]LogSlate: Window 'Save Content' being destroyed
+[2022.02.02-11.07.43:443][779]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/MH_Factory" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.07.43:462][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-11.07.43:501][779]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/MH_Factory741CA9114DB6D3CC841D09A00284A5EE.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap'
+[2022.02.02-11.07.43:532][779]LogFileHelpers: No new changes to save!
+[2022.02.02-11.07.43:535][779]LogFileHelpers: Saving map 'MH_Factory' took 0.092
+[2022.02.02-11.07.43:605][779]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.07.43:606][779]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.07.43:606][779]LightingResults: New page: Lighting Build
+[2022.02.02-11.07.43:606][779]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-11.07.43:644][779]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.07.43:644][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.07.43:645][779]MapCheck: New page: Map Check
+[2022.02.02-11.07.43:645][779]LightingResults: New page: Lighting Build
+[2022.02.02-11.07.43:678][779]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.07.43:681][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.02.02-11.07.43:682][779]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-11.07.43:685][779]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-11.07.43:685][779]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-11.07.43:688][779]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MM_Fun) is flushing async loading
+[2022.02.02-11.07.43:690][779]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MH_Factory) is flushing async loading
+[2022.02.02-11.07.43:713][779]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.07.43:713][779]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-11.07.43:740][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.02.02-11.07.43:776][779]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.07.43:778][779]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,321ms to complete.
+[2022.02.02-11.07.43:778][779]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.172
+[2022.02.02-11.07.43:806][779]AssetCheck: New page: Asset Save: MH_Factory
+[2022.02.02-11.07.43:806][779]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-11.08.13:689][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.02.02-11.08.13:722][297]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.08.13:722][297]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.08.13:722][297]LightingResults: New page: Lighting Build
+[2022.02.02-11.08.13:722][297]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-11.08.13:727][297]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.08.13:727][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.08.13:727][297]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.08.13:727][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.08.13:727][297]LogWorld: UWorld::CleanupWorld for MM_Fun, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.08.13:727][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.08.13:727][297]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.08.13:727][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.08.13:728][297]MapCheck: New page: Map Check
+[2022.02.02-11.08.13:728][297]LightingResults: New page: Lighting Build
+[2022.02.02-11.08.13:742][297]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.08.13:745][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.02.02-11.08.13:754][297]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-11.08.13:755][297]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-11.08.13:779][297]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MH_Factory) is flushing async loading
+[2022.02.02-11.08.13:779][297]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-11.08.13:781][297]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MM_Fun) is flushing async loading
+[2022.02.02-11.08.13:783][297]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-11.08.13:808][297]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.08.13:833][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.02.02-11.08.13:857][297]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.08.13:857][297]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,224ms to complete.
+[2022.02.02-11.08.13:857][297]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.135
+[2022.02.02-11.08.13:908][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-11.09.08:474][116]LogSlate: Window 'Message' being destroyed
+[2022.02.02-11.09.08:482][116]Message dialog closed, result: Ok, title: Message, text: MakeLevelCurrent: The requested operation could not be completed because the level is locked.
+[2022.02.02-11.09.20:198][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/AT_Fields" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/AT_Fields.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.09.20:220][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.02.02-11.09.20:279][320]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/AT_Fields84A6717C4C2FD8DF7B429FBB7800CC3F.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/AT_Fields.umap'
+[2022.02.02-11.09.20:281][320]LogFileHelpers: No new changes to save!
+[2022.02.02-11.09.20:297][320]AssetCheck: New page: Asset Save: AT_Fields
+[2022.02.02-11.09.20:297][320]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/AT_Fields.AT_Fields
+[2022.02.02-11.09.25:587][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2022.02.02-11.09.28:216][863]LogSlate: Window 'Save Content' being destroyed
+[2022.02.02-11.09.28:250][863]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.09.28:250][863]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.09.28:250][863]LightingResults: New page: Lighting Build
+[2022.02.02-11.09.28:251][863]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-11.09.28:295][863]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.09.28:295][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.09.28:295][863]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.09.28:295][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.09.28:295][863]LogWorld: UWorld::CleanupWorld for MM_Fun, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.09.28:295][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.09.28:295][863]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.09.28:295][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.09.28:297][863]MapCheck: New page: Map Check
+[2022.02.02-11.09.28:298][863]LightingResults: New page: Lighting Build
+[2022.02.02-11.09.28:332][863]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.09.28:335][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.02.02-11.09.28:345][863]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-11.09.28:346][863]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-11.09.28:369][863]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MM_Fun) is flushing async loading
+[2022.02.02-11.09.28:369][863]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-11.09.28:371][863]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-11.09.28:375][863]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MH_Factory) is flushing async loading
+[2022.02.02-11.09.28:397][863]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.09.28:425][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.02.02-11.09.28:449][863]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.09.28:451][863]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,717ms to complete.
+[2022.02.02-11.09.28:451][863]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.202
+[2022.02.02-11.09.28:504][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.02.02-11.10.02:531][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.02.02-11.10.02:562][564]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-11.10.02:562][564]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.10.02:562][564]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.02:562][564]LoadErrors: New page: Loading map: MH_Factory.umap
+[2022.02.02-11.10.02:566][564]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.02:566][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.02:566][564]LogWorld: UWorld::CleanupWorld for MM_Fun, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.02:566][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.02:566][564]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.02:566][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.02:566][564]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.02:566][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.02:567][564]MapCheck: New page: Map Check
+[2022.02.02-11.10.02:567][564]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.02:587][564]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.10.02:590][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.02.02-11.10.02:590][564]LogAudio: Display: Audio Device (ID: 1) registered with world 'MH_Factory'.
+[2022.02.02-11.10.02:591][564]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-11.10.02:612][564]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.10.02:631][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.02.02-11.10.02:656][564]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.10.02:656][564]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,183ms to complete.
+[2022.02.02-11.10.02:656][564]LogFileHelpers: Loading map 'MH_Factory' took 0.094
+[2022.02.02-11.10.02:704][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-11.10.04:192][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.02.02-11.10.04:288][724]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.10.04:288][724]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.10.04:288][724]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.04:288][724]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-11.10.04:289][724]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.04:289][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.04:290][724]MapCheck: New page: Map Check
+[2022.02.02-11.10.04:290][724]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.04:303][724]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.10.04:305][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.02.02-11.10.04:306][724]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-11.10.04:309][724]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MH_Factory) is flushing async loading
+[2022.02.02-11.10.04:309][724]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-11.10.04:311][724]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MM_Fun) is flushing async loading
+[2022.02.02-11.10.04:313][724]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-11.10.04:335][724]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.10.04:335][724]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-11.10.04:361][724]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.02.02-11.10.04:386][724]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.10.04:386][724]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,235ms to complete.
+[2022.02.02-11.10.04:386][724]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.099
+[2022.02.02-11.10.17:559][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.02.02-11.10.17:597][ 76]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-11.10.17:597][ 76]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.10.17:597][ 76]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.17:597][ 76]LoadErrors: New page: Loading map: MH_Factory.umap
+[2022.02.02-11.10.17:601][ 76]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.17:602][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.17:602][ 76]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.17:602][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.17:602][ 76]LogWorld: UWorld::CleanupWorld for MM_Fun, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.17:602][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.17:602][ 76]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.17:602][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.17:602][ 76]MapCheck: New page: Map Check
+[2022.02.02-11.10.17:602][ 76]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.17:622][ 76]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.10.17:625][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.02.02-11.10.17:625][ 76]LogAudio: Display: Audio Device (ID: 1) registered with world 'MH_Factory'.
+[2022.02.02-11.10.17:626][ 76]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-11.10.17:649][ 76]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.10.17:667][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.02.02-11.10.17:690][ 76]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.10.17:690][ 76]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,239ms to complete.
+[2022.02.02-11.10.17:690][ 76]LogFileHelpers: Loading map 'MH_Factory' took 0.093
+[2022.02.02-11.10.17:744][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.02.02-11.10.20:861][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2022.02.02-11.10.20:901][354]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/AT_Fields.AT_Fields
+[2022.02.02-11.10.20:902][354]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/AT_Fields.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.10.20:902][354]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.20:902][354]LoadErrors: New page: Loading map: AT_Fields.umap
+[2022.02.02-11.10.20:903][354]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.20:903][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.20:904][354]MapCheck: New page: Map Check
+[2022.02.02-11.10.20:904][354]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.20:921][354]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.10.20:923][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.02.02-11.10.20:923][354]LogAudio: Display: Audio Device (ID: 1) registered with world 'AT_Fields'.
+[2022.02.02-11.10.20:944][354]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.10.20:944][354]LogAIModule: Creating AISystem for world AT_Fields
+[2022.02.02-11.10.20:963][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.02.02-11.10.20:990][354]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.10.20:990][354]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,109ms to complete.
+[2022.02.02-11.10.20:990][354]LogFileHelpers: Loading map 'AT_Fields' took 0.089
+[2022.02.02-11.10.22:010][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.02.02-11.10.22:029][427]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/MH_Factory.MH_Factory
+[2022.02.02-11.10.22:030][427]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/MH_Factory.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.10.22:030][427]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.22:030][427]LoadErrors: New page: Loading map: MH_Factory.umap
+[2022.02.02-11.10.22:031][427]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.22:031][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.22:032][427]MapCheck: New page: Map Check
+[2022.02.02-11.10.22:032][427]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.22:046][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.10.22:048][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2022.02.02-11.10.22:048][427]LogAudio: Display: Audio Device (ID: 1) registered with world 'MH_Factory'.
+[2022.02.02-11.10.22:069][427]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.10.22:069][427]LogAIModule: Creating AISystem for world MH_Factory
+[2022.02.02-11.10.22:093][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.02.02-11.10.22:113][427]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.10.22:113][427]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,109ms to complete.
+[2022.02.02-11.10.22:113][427]LogFileHelpers: Loading map 'MH_Factory' took 0.083
+[2022.02.02-11.10.22:675][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.02.02-11.10.22:725][469]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.10.22:725][469]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.10.22:725][469]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.22:725][469]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-11.10.22:726][469]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.22:726][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.22:727][469]MapCheck: New page: Map Check
+[2022.02.02-11.10.22:727][469]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.22:740][469]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.10.22:743][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.02.02-11.10.22:743][469]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-11.10.22:746][469]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MM_Fun) is flushing async loading
+[2022.02.02-11.10.22:746][469]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-11.10.22:748][469]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MH_Factory) is flushing async loading
+[2022.02.02-11.10.22:750][469]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-11.10.22:773][469]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.10.22:773][469]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-11.10.22:796][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.02.02-11.10.22:816][469]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.10.22:817][469]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,354ms to complete.
+[2022.02.02-11.10.22:817][469]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.092
+[2022.02.02-11.10.39:616][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.02.02-11.10.39:647][ 88]LogAssetEditorSubsystem: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2022.02.02-11.10.39:647][ 88]Cmd: MAP LOAD FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.02-11.10.39:647][ 88]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.39:647][ 88]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2022.02.02-11.10.39:651][ 88]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.39:651][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.39:651][ 88]LogWorld: UWorld::CleanupWorld for MM_Fun, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.39:651][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.39:651][ 88]LogWorld: UWorld::CleanupWorld for MH_Factory, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.39:651][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.39:652][ 88]LogWorld: UWorld::CleanupWorld for AT_Fields, bSessionEnded=true, bCleanupResources=true
+[2022.02.02-11.10.39:652][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.02-11.10.39:652][ 88]MapCheck: New page: Map Check
+[2022.02.02-11.10.39:652][ 88]LightingResults: New page: Lighting Build
+[2022.02.02-11.10.39:673][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.02.02-11.10.39:676][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.02.02-11.10.39:686][ 88]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownExampleMap'.
+[2022.02.02-11.10.39:687][ 88]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.02.02-11.10.39:712][ 88]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/AT_Fields) is flushing async loading
+[2022.02.02-11.10.39:712][ 88]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.02-11.10.39:715][ 88]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MM_Fun) is flushing async loading
+[2022.02.02-11.10.39:717][ 88]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/TopDownBP/Maps/MH_Factory) is flushing async loading
+[2022.02.02-11.10.39:742][ 88]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.02-11.10.39:766][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.02.02-11.10.39:793][ 88]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.02-11.10.39:793][ 88]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,326ms to complete.
+[2022.02.02-11.10.39:793][ 88]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.146
+[2022.02.02-11.10.39:844][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.02.02-11.10.56:850][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/AT_Fields" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/AT_Fields.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.10.56:870][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.02.02-11.10.56:923][885]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/AT_Fields1AA9221D426802CC29A37D9F66816A2D.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/AT_Fields.umap'
+[2022.02.02-11.10.56:929][885]LogFileHelpers: No new changes to save!
+[2022.02.02-11.10.56:948][885]AssetCheck: New page: Asset Save: AT_Fields
+[2022.02.02-11.10.56:948][885]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/AT_Fields.AT_Fields
+[2022.02.02-11.11.04:798][796]LogEditorSelectUtils: Warning: SelectActor: The requested operation could not be completed because the level is locked. (100*100)
+[2022.02.02-11.11.07:704][ 85]LogActorFactory: Actor Factory created Sphere
+[2022.02.02-11.11.08:335][143]LogActorFactory: Actor Factory created Sphere
+[2022.02.02-11.11.10:628][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/AT_Fields" FILE="F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/AT_Fields.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.02.02-11.11.10:650][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.02.02-11.11.10:711][372]LogSavePackage: Moving 'F:/P4/LevelArt/LevelArt/UE 4.27/Saved/AT_FieldsABDB3D1B46BBF43DC7905DBC9AAAD78E.tmp' to 'F:/P4/LevelArt/LevelArt/UE 4.27/Content/TopDownBP/Maps/AT_Fields.umap'
+[2022.02.02-11.11.10:716][372]LogFileHelpers: No new changes to save!
+[2022.02.02-11.11.10:734][372]AssetCheck: New page: Asset Save: AT_Fields
+[2022.02.02-11.11.10:734][372]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/AT_Fields.AT_Fields
+[2022.02.02-11.11.17:812][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.02.02-11.11.20:883][180]LogSlate: Window 'Save Content' being destroyed
